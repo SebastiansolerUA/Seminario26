@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Mamba/Conda entornos
+*.pkl
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Archivos de datos (NO subir datos sensibles)
+*.xlsx
+*.xls
+*.csv
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Configuración personal
+.env
+config.py
+
+# Notebooks (si tienes)
+.ipynb_checkpoints/
+*.ipynb
